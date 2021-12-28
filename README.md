@@ -1,40 +1,30 @@
 # horiseon-code-refractor
+Links:
+Live Application: https://mblackwellgca.github.io/horiseon-code-refractor/ 
+
+Github URL: https://github.com/mblackwellgca/horiseon-code-refractor.git
+
 ## Description 
 Accessibility ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. In this example, we are refactoring an existing site to make it more accessible.
+While updating for accessibility, I cleaned up the coding a little to combine syles when appropriate, clarify elements such as class & id for future reference. Edit clarifications are below.
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png) (assignment image used here as I do not have a public repository for sharing images nor was this discussed in class regarding expectations)
 
 ## Edits
-Title changed to "Horiseon Social Solutions"
-Add alt text to images
-  Search Engine Optimization alt text
-  Online reputation management alt text
-  Social media marketing alt text
-Added "id" to "search-engine-optimization" so that when clicking the link, users are taken to that location.
-
-Grading Criteria:
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application GitHub URL submitted.
-
-### Application Quality: 15%
-
-* Application resembles mock-up provided in the homework instructions (at least 90%).
-
-### Repository Quality: 13%
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
+* HTML:
+  * Line 7, Title changed to "Horiseon Social Solutions"
+  * Line 11, removed "div" for header and line 12 added "header"
+  * Line 15, changed div to nav for clarity
+  * Line 30, changed div to figure for clarity
+  * Line 32, changed div to section for clarity
+  * Line 34, Added "id" to "search-engine-optimization" so that when clicking the link, users are taken to that location, changed div to article, and deleted class.
+  * Lines 35, 43, 63, 71, 79, added alt text to image
+  * Lines 42 & 50, changed div to article and deleted class
+  * Line 59, changed div to section
+  * Lines 61, 69, 77, changed div to aside, and deleted class.
+  * Line 86, changed div to footer for clarity
+* CSS:
+  * Line 12, removed "." class from the main header
+  * Lines 28, 36, & 39, changed to nav since this element was changed in the html.
+  * Lines 90, 96, 102, 109, 119, & 124, changed class to updated semantics as this element was also changed in the html file. This change allowed the deletion of redundant coding, that cleans up the css file making it easier to read.
+  * Line 130, removed "." class from footer.

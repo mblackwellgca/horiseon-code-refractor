@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-/*removed "." from header*/
+/*removed "." from the main header as this class was unnecessary*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +20,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*this style adds a color change to the "seo" letters in Horiseon"*/
 header h1 .seo {
     color: #d9dcd6;
 }
-/*changed to "nav"*/
+/*changed to "nav" which affects the navigation buttons on the page*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*the float styles affect the images in the section*/
 .float-left {
     float: left;
     margin-right: 25px;
