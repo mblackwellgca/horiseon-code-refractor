@@ -10,25 +10,6 @@ Add alt text to images
   Social media marketing alt text
 Added "id" to "search-engine-optimization" so that when clicking the link, users are taken to that location.
 
-
-
-
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the heading attributes
-THEN they fall in sequential order
-
-
-To impress clients, you should always exceed expectations and improve the codebase for long-term sustainability. You can also increase the efficiency of the CSS by consolidating the selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-## Mock-Up
-
-> **Note**: This layout is designed for desktop viewing, 
-
-
 Grading Criteria:
 ### Technical Acceptance Criteria: 40%
 
