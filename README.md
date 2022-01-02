@@ -33,4 +33,9 @@ Sample image of alt text updates:
 ## Credits
   * https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
   * https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github 
+  * https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+  * https://choosealicense.com/
+
+## License
+  * none
   
