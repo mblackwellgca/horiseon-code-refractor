@@ -8,7 +8,8 @@ Github URL: https://github.com/mblackwellgca/horiseon-code-refractor.git
 Accessibility ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. In this example, we are refactoring an existing site to make it more accessible for all, including those with disabilities.
 While updating for accessibility, I cleaned up the coding to combine syles when appropriate, clarify elements such as class & id for future reference. Edit clarifications are below.
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/01-html-css-git-homework-demo.png)
+Sample image of alt text updates:
+![Added alt text to images for accessibility](./assets/images/added-alt-text.png)
 
 ## Edits
 * HTML:
@@ -28,3 +29,8 @@ While updating for accessibility, I cleaned up the coding to combine syles when 
   * Lines 28, 36, & 39, changed to nav since this element was changed in the html.
   * Lines 90, 96, 102, 109, 119, & 124, changed class to updated semantics as this element was also changed in the html file. This change allowed the deletion of redundant coding, that cleans up the css file making it easier to read.
   * Line 130, removed "." class from footer.
+
+## Credits
+  * https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+  * https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github 
+  
