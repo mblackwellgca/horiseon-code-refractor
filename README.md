@@ -5,10 +5,10 @@ Live Application: https://mblackwellgca.github.io/horiseon-code-refractor/
 Github URL: https://github.com/mblackwellgca/horiseon-code-refractor.git
 
 ## Description 
-Accessibility ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. In this example, we are refactoring an existing site to make it more accessible.
-While updating for accessibility, I cleaned up the coding a little to combine syles when appropriate, clarify elements such as class & id for future reference. Edit clarifications are below.
+Accessibility ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. In this example, we are refactoring an existing site to make it more accessible for all, including those with disabilities.
+While updating for accessibility, I cleaned up the coding to combine syles when appropriate, clarify elements such as class & id for future reference. Edit clarifications are below.
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png) (assignment image used here as I do not have a public repository for sharing images nor was this discussed in class regarding expectations)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/images/01-html-css-git-homework-demo.png) (assignment image used here as I do not have a public repository for sharing images nor was this discussed in class regarding expectations)
 
 ## Edits
 * HTML:
